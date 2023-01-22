@@ -20,3 +20,18 @@
   #hero-image {
     filter: brightness(0.55);
   }
+
+  #typing-effect {
+    max-width: 800px;
+  }
+
+  svg:hover {
+    position: relative;
+    bottom: 2px;
+  }
+
+  @media screen and (max-width: 600px) {
+    #typing-effect {
+        max-width: 300px;
+    }
+  }
