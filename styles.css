@@ -2,6 +2,19 @@
     font-family: "Quicksand";
 }
 
+svg {
+  margin-bottom: 20px;
+}
+
+svg:hover {
+  position: relative;
+  bottom: 2px;
+}
+
+img {
+  border-radius: 15px;
+}
+
 /* Container holding the image and the text */
 .container {
     position: relative;
@@ -17,29 +30,22 @@
     transform: translate(-50%, -50%);
   }
 
-  svg {
-    margin-bottom: 20px;
-  }
+.under-construction {
+  margin-top: 8%;
+  color: black;
+  text-align: start;
+}
 
-  svg:hover {
-    position: relative;
-    bottom: 2px;
-  }
+#hero-image {
+  filter: brightness(0.55);
+}
 
-  img {
-    border-radius: 15px;
-  }
+#typing-effect {
+  max-width: 800px;
+}
 
-  #hero-image {
-    filter: brightness(0.55);
-  }
-
+@media screen and (max-width: 600px) {
   #typing-effect {
-    max-width: 800px;
+      max-width: 300px;
   }
-
-  @media screen and (max-width: 600px) {
-    #typing-effect {
-        max-width: 300px;
-    }
-  }
+}
