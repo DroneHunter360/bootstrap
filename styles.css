@@ -25,6 +25,10 @@
     max-width: 800px;
   }
 
+  svg {
+    margin-bottom: 10px;
+  }
+
   svg:hover {
     position: relative;
     bottom: 2px;

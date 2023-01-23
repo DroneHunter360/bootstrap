@@ -1,5 +1,5 @@
 let i = 0;
-let text = "The largest community of photo enthusiasts";
+let text = "Welcome to photopia, stay awhile!";
 let curText = document.getElementById("typing-effect").innerHTML;
 
 console.log(curText)
