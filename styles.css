@@ -17,14 +17,6 @@
     transform: translate(-50%, -50%);
   }
 
-  #hero-image {
-    filter: brightness(0.55);
-  }
-
-  #typing-effect {
-    max-width: 800px;
-  }
-
   svg {
     margin-bottom: 20px;
   }
@@ -32,6 +24,18 @@
   svg:hover {
     position: relative;
     bottom: 2px;
+  }
+
+  img {
+    border-radius: 15px;
+  }
+
+  #hero-image {
+    filter: brightness(0.55);
+  }
+
+  #typing-effect {
+    max-width: 800px;
   }
 
   @media screen and (max-width: 600px) {
