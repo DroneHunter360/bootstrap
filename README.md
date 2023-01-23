@@ -1,3 +1,3 @@
 # Photopia
 
-A website used to showcase one of my favourite hobbies: photography!
+A static web page built using HTML, CSS, JavaScript, and Bootstrap 5
