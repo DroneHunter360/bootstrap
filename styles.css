@@ -36,6 +36,10 @@ img {
   color: black;
 }
 
+.navbar-nav {
+  padding-top: 0;
+}
+
 #hero-image {
   filter: brightness(0.55);
 }
@@ -52,5 +56,13 @@ img[class^="portraits"] {
 @media screen and (max-width: 600px) {
   #typing-effect {
       max-width: 300px;
+  }
+
+  .account-btns {
+    margin-top: 10px;
+  }
+
+  .register-btn  {
+    margin-top: 8px;
   }
 }
