@@ -51,6 +51,8 @@ img {
 img[class^="portraits"] {
   margin: 15px;
   border-radius: 10px;
+  width: auto;
+  height: auto;
 }
 
 @media screen and (max-width: 600px) {
@@ -64,5 +66,10 @@ img[class^="portraits"] {
 
   .register-btn  {
     margin-top: 8px;
+  }
+
+  img[class^="portraits"] {
+    width: 85%;
+    height: auto;
   }
 }
