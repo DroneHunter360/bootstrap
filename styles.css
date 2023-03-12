@@ -1,5 +1,10 @@
 * {
-    font-family: "Quicksand";
+  font-family: 'Quicksand', sans-serif;
+}
+
+#typing-effect {
+  font-weight: 600;
+  font-size: 58px;
 }
 
 svg {
